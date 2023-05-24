@@ -1,0 +1,197 @@
+.ref {
+  margin-top: 500px;
+  max-width: 1000px;
+}
+
+/* CSS reset */
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+fieldset,
+img {
+  border: 0;
+}
+input {
+  border: 1px solid #b0b0b0;
+  padding: 3px 5px 4px;
+  color: #979797;
+  width: 190px;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+ol,
+ul {
+  list-style: none;
+}
+caption,
+th {
+  text-align: left;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+q:before,
+q:after {
+  content: "";
+}
+abbr,
+acronym {
+  border: 0;
+}
+
+body {
+    font-family: 'ABeeZee';font-size: 22px;
+    font-size: 16px;
+    background: #0b1b28;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+}
+
+.header, .content {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 0;
+}
+
+.logo a {
+    color: azure;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.nav-list li {
+    display: inline;
+    padding-left: 30px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: azure;
+    transition: 0.5s;
+}
+
+.nav-list a:hover, 
+.nav-list a.active {
+    color: #3ba2e0;
+}
+
+
+
+.about-text {
+    width: 500px;
+}
+
+.about h1 {
+    color: azure;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.about h2 {
+    color: #3ba2e0;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 5px 0 15px 0;
+}
+
+.about p {
+    color: azure;
+    padding-bottom: 45px;
+}
+
+.content {
+    position: relative;
+}
+
+.image img {
+    width: 500px;
+    transition: 2.5s;
+}
+
+.image img:hover {
+    opacity: 0;
+}
+
+.content li {
+    display: inline;
+    margin-right: 50px;
+}
+
+.content a {
+    text-decoration: none;
+    color: #3ba2e0;
+    border: 2px solid #3ba2e0;
+    padding: 10px 35px;
+    border-radius: 10px;
+    font-weight: 700;
+    transition: 1s;
+}
+
+.content a:hover {
+    color: #0b1b28;
+    background: #3ba2e0;
+}
+
+.footer i {
+    padding-right: 30px;
+    scale: 1.2;
+    margin-left: 10px;
+}
+
+.footer {
+    
+    display: flex;
+    justify-content: center;
+}
