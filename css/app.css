@@ -85,6 +85,13 @@ acronym {
   border: 0;
 }
 
+.bg-1 {
+    position: absolute;
+    z-index: -1;
+    opacity: 0.1;
+    max-width: 1400px;
+}
+
 body {
     font-family: 'ABeeZee';font-size: 22px;
     font-size: 16px;
@@ -158,13 +165,14 @@ body {
 .image img {
     width: 500px;
     transition: 2.5s;
+    margin-bottom: 50px;
 }
 
 .image img:hover {
     opacity: 0;
 }
 
-.content li {
+.about li {
     display: inline;
     margin-right: 50px;
 }
@@ -182,6 +190,87 @@ body {
 .content a:hover {
     color: #0b1b28;
     background: #3ba2e0;
+}
+
+.services-container {
+    border: 2px solid #3ba2e0;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.services-container h1 {
+    position: absolute;
+    font-size: 34px;
+    color: azure;
+    font-weight: 700;
+    top: -25px;
+    left: 418px;
+    border: 0px solid #0b1b28;
+    background: #0b1b28;
+    padding: 0 20px;
+}
+
+.services {
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.services-content {
+    border: 3px solid #3ba2e0;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.services-content:hover img {
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.services-content:hover .services-text {
+    opacity: 1;
+    transition: 0.5s;
+    scale: 1;
+}
+
+.services-text {
+    position: absolute;
+    color: azure;
+    width: 200px;
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 25px;
+    opacity: 0;
+    scale: 0;
+    z-index: 1;
+}
+
+.services-text p {
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.services-text h2 {
+    font-weight: 700;
+}
+
+.services-text a {
+    text-decoration: none;
+    border: 2px solid #3ba2e0;
+    color: #3ba2e0;
+    padding: 6px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.services-text a:hover {
+    color: #0b1b28;
+    background: #3ba2e0;
+    transition: 1s;
 }
 
 .footer i {
